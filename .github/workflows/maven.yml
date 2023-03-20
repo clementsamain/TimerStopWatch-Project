@@ -41,11 +41,11 @@ jobs:
         SONAR_HOST_URL: ${{secrets.URL}}
       run: >
         mvn −B verifyorg.sonarsource.scanner.maven : sonar−maven−plugin:sonar
-        −Dsonar.host.url=https://sonarcloud.io
-        −Dsonar.organization=clementsamain
-        −Dsonar.projectKey=clementsamain_TimerStopWatch-Project
-        −Dsonar.branch.name=main
-        −Dsonar.login=$TP
+        -Dsonar.host.url=https://sonarcloud.io
+        -Dsonar.organization=clementsamain
+        -Dsonar.projectKey=clementsamain_TimerStopWatch-Project
+        -Dsonar.branch.name=main
+        -Dsonar.login=$TP
 
 
 
